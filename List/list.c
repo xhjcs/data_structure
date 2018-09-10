@@ -35,7 +35,7 @@ void list_destroy(List *list) {
     }
     
     /* No operations are allowed now, but clear the structure as a precaution. */
-    memset(list, 0, sizeof(list));
+    memset(list, 0, sizeof(List));
 }
 
 /* list_ins_next */
